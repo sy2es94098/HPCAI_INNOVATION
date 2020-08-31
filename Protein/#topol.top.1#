@@ -1,0 +1,22 @@
+;
+;	File 'topol.top' was generated
+;	By user: apacsc28 (10795)
+;	On host: nscc03
+;	At date: Mon Aug 31 17:57:00 2020
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	               :-) GROMACS - gmx pdb2gmx, 2020.3-UNCHECKED (-:
+;	
+;	Executable:   /home/users/industry/ai-hpc/apacsc28/scratch/gromacs-2020.3/bin/gmx_mpi
+;	Data prefix:  /home/users/industry/ai-hpc/apacsc28/scratch/gromacs-2020.3
+;	Working dir:  /scratch/users/industry/ai-hpc/apacsc28/innovation/HPCAI_INNOVATION/Protein
+;	Command line:
+;	  gmx_mpi pdb2gmx -f 6m03.pdb -o 6m03_processed.gro
+;	Force field was read from current directory or a relative path - path added.
+;
+
+; Include forcefield parameters
+#include "./charmm36-jul2020.ff/forcefield.itp"
+
